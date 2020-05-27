@@ -8,7 +8,7 @@
 
 ## 干什么的？
 
-- 这个是用来登录 ShanghaiTech Wi-Fi 的登录器。算是我学习 Swift UI 上手的东西。仅仅做了最基础的功能，未测试。
+- 这个是用来登录 ShanghaiTech Wi-Fi 的登录器。算是我学习 SwiftUI 上手的东西。仅仅做了最基础的功能，未测试。仅支持 watchOS 6。
 
 - 需要给 Apple Watch 安装 ShanghaiTech.V2.mobileconfig，位于仓库根目录。但是我不是很确定这个描述文件一定能让 Apple Watch 连上需要网页认证的 Wi-Fi 热点。
 
