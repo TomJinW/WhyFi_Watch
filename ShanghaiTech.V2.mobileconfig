@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>你了解并清楚使用本描述文件产生的任何后果由你承担。</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<true/>
+			<key>EncryptionType</key>
+			<string>None</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>PayloadDescription</key>
+			<string>配置 Wi-Fi 设置</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.3F88D570-465C-44BE-BDC6-3B5DD5857322</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>3F88D570-465C-44BE-BDC6-3B5DD5857322</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>ShanghaiTech</string>
+		</dict>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<true/>
+			<key>EncryptionType</key>
+			<string>None</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>PayloadDescription</key>
+			<string>配置 Wi-Fi 设置</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.91FCBDBF-2F9F-46F6-ADDE-4BB3FA6633C0</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>91FCBDBF-2F9F-46F6-ADDE-4BB3FA6633C0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>Guest</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>在 iOS/macOS 设备上，该描述文件用于关闭 Wi-Fi 网络 ShanghaiTech / guest 的自动网络检测与弹出功能。对于 watchOS 6 设备，安装该描述文件可以让 watchOS 在无法连接互联网的情况下连接到 Wi-Fi 局域网，需要使用 WhyFi_Watch 或其他第三方软件登录学校网络。</string>
+	<key>PayloadDisplayName</key>
+	<string>ShanghaiTech Wi-Fi</string>
+	<key>PayloadIdentifier</key>
+	<string>ShanghaiTech_Wi-Fi_Ver.2</string>
+	<key>PayloadOrganization</key>
+	<string>ShanghaiTech</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>4A0572A8-FF4D-4BCC-B3D0-310910952DB6</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
