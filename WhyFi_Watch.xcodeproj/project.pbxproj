@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57DB69A3D2FE339E9700A5F5 /* Pods_WhyFi_Watch_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD5D0A7828CAC985BB6C32E /* Pods_WhyFi_Watch_WatchKit_Extension.framework */; };
+		77E36340ADD6ED478D77D70D /* Pods_WhyFi_Watch_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90078F2629548EC491EA5CEA /* Pods_WhyFi_Watch_WatchKit_App.framework */; };
+		E21608E8247E9D2300A7870C /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21608E7247E9D2300A7870C /* UserDefaults.swift */; };
+		E2AF0F31247E7EB800B498B8 /* WhyFi_Watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E2AF0F30247E7EB800B498B8 /* WhyFi_Watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E2AF0F37247E7EB800B498B8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AF0F35247E7EB800B498B8 /* Interface.storyboard */; };
+		E2AF0F39247E7EBB00B498B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2AF0F38247E7EBB00B498B8 /* Assets.xcassets */; };
+		E2AF0F40247E7EBB00B498B8 /* WhyFi_Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E2AF0F3F247E7EBB00B498B8 /* WhyFi_Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E2AF0F45247E7EBB00B498B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF0F44247E7EBB00B498B8 /* ContentView.swift */; };
+		E2AF0F47247E7EBB00B498B8 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF0F46247E7EBB00B498B8 /* HostingController.swift */; };
+		E2AF0F49247E7EBB00B498B8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF0F48247E7EBB00B498B8 /* ExtensionDelegate.swift */; };
+		E2AF0F4B247E7EBB00B498B8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF0F4A247E7EBB00B498B8 /* NotificationController.swift */; };
+		E2AF0F4D247E7EBB00B498B8 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF0F4C247E7EBB00B498B8 /* NotificationView.swift */; };
+		E2AF0F4F247E7EBC00B498B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2AF0F4E247E7EBC00B498B8 /* Assets.xcassets */; };
+		E2AF0F52247E7EBC00B498B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2AF0F51247E7EBC00B498B8 /* Preview Assets.xcassets */; };
+		E2AF0FD0247E83F800B498B8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF0FCF247E83F800B498B8 /* Network.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2AF0F32247E7EB800B498B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2AF0F26247E7EB700B498B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2AF0F2F247E7EB800B498B8;
+			remoteInfo = "WhyFi_Watch WatchKit App";
+		};
+		E2AF0F41247E7EBB00B498B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2AF0F26247E7EB700B498B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2AF0F3E247E7EBB00B498B8;
+			remoteInfo = "WhyFi_Watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E21608E0247E8D2300A7870C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AF0F5A247E7EBC00B498B8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E2AF0F40247E7EBB00B498B8 /* WhyFi_Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AF0F5E247E7EBC00B498B8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E2AF0F31247E7EB800B498B8 /* WhyFi_Watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0697716861FD304A7CC4BFE3 /* Pods-WhyFi_Watch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFi_Watch WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-WhyFi_Watch WatchKit Extension/Pods-WhyFi_Watch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		4E3EF790F9DB00ED078782DB /* Pods_WhyFi_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhyFi_Watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B822663644ADA722FC53922 /* Pods-WhyFi_Watch WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFi_Watch WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-WhyFi_Watch WatchKit App/Pods-WhyFi_Watch WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		8A216522A54F9F7A307AFEA3 /* Pods-WhyFi_Watch WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFi_Watch WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-WhyFi_Watch WatchKit App/Pods-WhyFi_Watch WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		90078F2629548EC491EA5CEA /* Pods_WhyFi_Watch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhyFi_Watch_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD5D0A7828CAC985BB6C32E /* Pods_WhyFi_Watch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhyFi_Watch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0952F71BA303A9D97452577 /* Pods-WhyFi_Watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFi_Watch.release.xcconfig"; path = "Target Support Files/Pods-WhyFi_Watch/Pods-WhyFi_Watch.release.xcconfig"; sourceTree = "<group>"; };
+		C932E16420A1C3037E527033 /* Pods-WhyFi_Watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFi_Watch.debug.xcconfig"; path = "Target Support Files/Pods-WhyFi_Watch/Pods-WhyFi_Watch.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4CBF5FC1BE15944D86B816 /* Pods-WhyFi_Watch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhyFi_Watch WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-WhyFi_Watch WatchKit Extension/Pods-WhyFi_Watch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		E21608DD247E8D2300A7870C /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21608E7247E9D2300A7870C /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		E2AF0F2C247E7EB700B498B8 /* WhyFi_Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhyFi_Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AF0F30247E7EB800B498B8 /* WhyFi_Watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhyFi_Watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AF0F36247E7EB800B498B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E2AF0F38247E7EBB00B498B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2AF0F3A247E7EBB00B498B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AF0F3F247E7EBB00B498B8 /* WhyFi_Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WhyFi_Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AF0F44247E7EBB00B498B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2AF0F46247E7EBB00B498B8 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		E2AF0F48247E7EBB00B498B8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E2AF0F4A247E7EBB00B498B8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E2AF0F4C247E7EBB00B498B8 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		E2AF0F4E247E7EBC00B498B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2AF0F51247E7EBC00B498B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2AF0F53247E7EBC00B498B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AF0F54247E7EBC00B498B8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		E2AF0FCF247E83F800B498B8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C79FF350BC158C7B08B6470A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E36340ADD6ED478D77D70D /* Pods_WhyFi_Watch_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B634D3F0C4320F1D3673D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AF0F3C247E7EBB00B498B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DB69A3D2FE339E9700A5F5 /* Pods_WhyFi_Watch_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E3E99343739BE3BCD51FDCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E21608DD247E8D2300A7870C /* SwiftyJSON.framework */,
+				4E3EF790F9DB00ED078782DB /* Pods_WhyFi_Watch.framework */,
+				90078F2629548EC491EA5CEA /* Pods_WhyFi_Watch_WatchKit_App.framework */,
+				9DD5D0A7828CAC985BB6C32E /* Pods_WhyFi_Watch_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70C594CD668A677788E0FE04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C932E16420A1C3037E527033 /* Pods-WhyFi_Watch.debug.xcconfig */,
+				A0952F71BA303A9D97452577 /* Pods-WhyFi_Watch.release.xcconfig */,
+				6B822663644ADA722FC53922 /* Pods-WhyFi_Watch WatchKit App.debug.xcconfig */,
+				8A216522A54F9F7A307AFEA3 /* Pods-WhyFi_Watch WatchKit App.release.xcconfig */,
+				0697716861FD304A7CC4BFE3 /* Pods-WhyFi_Watch WatchKit Extension.debug.xcconfig */,
+				DC4CBF5FC1BE15944D86B816 /* Pods-WhyFi_Watch WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2AF0F25247E7EB700B498B8 = {
+			isa = PBXGroup;
+			children = (
+				E2AF0F34247E7EB800B498B8 /* WhyFi_Watch WatchKit App */,
+				E2AF0F43247E7EBB00B498B8 /* WhyFi_Watch WatchKit Extension */,
+				E2AF0F2D247E7EB700B498B8 /* Products */,
+				70C594CD668A677788E0FE04 /* Pods */,
+				3E3E99343739BE3BCD51FDCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2AF0F2D247E7EB700B498B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF0F2C247E7EB700B498B8 /* WhyFi_Watch.app */,
+				E2AF0F30247E7EB800B498B8 /* WhyFi_Watch WatchKit App.app */,
+				E2AF0F3F247E7EBB00B498B8 /* WhyFi_Watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2AF0F34247E7EB800B498B8 /* WhyFi_Watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF0F35247E7EB800B498B8 /* Interface.storyboard */,
+				E2AF0F38247E7EBB00B498B8 /* Assets.xcassets */,
+				E2AF0F3A247E7EBB00B498B8 /* Info.plist */,
+			);
+			path = "WhyFi_Watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		E2AF0F43247E7EBB00B498B8 /* WhyFi_Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E21608E7247E9D2300A7870C /* UserDefaults.swift */,
+				E2AF0F44247E7EBB00B498B8 /* ContentView.swift */,
+				E2AF0F46247E7EBB00B498B8 /* HostingController.swift */,
+				E2AF0F48247E7EBB00B498B8 /* ExtensionDelegate.swift */,
+				E2AF0F4A247E7EBB00B498B8 /* NotificationController.swift */,
+				E2AF0F4C247E7EBB00B498B8 /* NotificationView.swift */,
+				E2AF0F4E247E7EBC00B498B8 /* Assets.xcassets */,
+				E2AF0F53247E7EBC00B498B8 /* Info.plist */,
+				E2AF0F54247E7EBC00B498B8 /* PushNotificationPayload.apns */,
+				E2AF0F50247E7EBC00B498B8 /* Preview Content */,
+				E2AF0FCF247E83F800B498B8 /* Network.swift */,
+			);
+			path = "WhyFi_Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E2AF0F50247E7EBC00B498B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF0F51247E7EBC00B498B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2AF0F2B247E7EB700B498B8 /* WhyFi_Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2AF0F5F247E7EBC00B498B8 /* Build configuration list for PBXNativeTarget "WhyFi_Watch" */;
+			buildPhases = (
+				65E87BC089E676967AF04FBC /* [CP] Check Pods Manifest.lock */,
+				E2AF0F2A247E7EB700B498B8 /* Resources */,
+				E2AF0F5E247E7EBC00B498B8 /* Embed Watch Content */,
+				D3B634D3F0C4320F1D3673D4 /* Frameworks */,
+				E21608E0247E8D2300A7870C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2AF0F33247E7EB800B498B8 /* PBXTargetDependency */,
+			);
+			name = WhyFi_Watch;
+			productName = WhyFi_Watch;
+			productReference = E2AF0F2C247E7EB700B498B8 /* WhyFi_Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E2AF0F2F247E7EB800B498B8 /* WhyFi_Watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2AF0F5B247E7EBC00B498B8 /* Build configuration list for PBXNativeTarget "WhyFi_Watch WatchKit App" */;
+			buildPhases = (
+				35E755E9594D72F258B5C61A /* [CP] Check Pods Manifest.lock */,
+				E2AF0F2E247E7EB800B498B8 /* Resources */,
+				E2AF0F5A247E7EBC00B498B8 /* Embed App Extensions */,
+				C79FF350BC158C7B08B6470A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2AF0F42247E7EBB00B498B8 /* PBXTargetDependency */,
+			);
+			name = "WhyFi_Watch WatchKit App";
+			productName = "WhyFi_Watch WatchKit App";
+			productReference = E2AF0F30247E7EB800B498B8 /* WhyFi_Watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E2AF0F3E247E7EBB00B498B8 /* WhyFi_Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2AF0F57247E7EBC00B498B8 /* Build configuration list for PBXNativeTarget "WhyFi_Watch WatchKit Extension" */;
+			buildPhases = (
+				F68072CE209C3E1FF143BB65 /* [CP] Check Pods Manifest.lock */,
+				E2AF0F3B247E7EBB00B498B8 /* Sources */,
+				E2AF0F3C247E7EBB00B498B8 /* Frameworks */,
+				E2AF0F3D247E7EBB00B498B8 /* Resources */,
+				B19E1E49F2C2DC72BE5C569C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhyFi_Watch WatchKit Extension";
+			productName = "WhyFi_Watch WatchKit Extension";
+			productReference = E2AF0F3F247E7EBB00B498B8 /* WhyFi_Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2AF0F26247E7EB700B498B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Tom;
+				TargetAttributes = {
+					E2AF0F2B247E7EB700B498B8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E2AF0F2F247E7EB800B498B8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E2AF0F3E247E7EBB00B498B8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E2AF0F29247E7EB700B498B8 /* Build configuration list for PBXProject "WhyFi_Watch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2AF0F25247E7EB700B498B8;
+			productRefGroup = E2AF0F2D247E7EB700B498B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2AF0F2B247E7EB700B498B8 /* WhyFi_Watch */,
+				E2AF0F2F247E7EB800B498B8 /* WhyFi_Watch WatchKit App */,
+				E2AF0F3E247E7EBB00B498B8 /* WhyFi_Watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2AF0F2A247E7EB700B498B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AF0F2E247E7EB800B498B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AF0F39247E7EBB00B498B8 /* Assets.xcassets in Resources */,
+				E2AF0F37247E7EB800B498B8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AF0F3D247E7EBB00B498B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AF0F52247E7EBC00B498B8 /* Preview Assets.xcassets in Resources */,
+				E2AF0F4F247E7EBC00B498B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35E755E9594D72F258B5C61A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhyFi_Watch WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65E87BC089E676967AF04FBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhyFi_Watch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19E1E49F2C2DC72BE5C569C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhyFi_Watch WatchKit Extension/Pods-WhyFi_Watch WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhyFi_Watch WatchKit Extension/Pods-WhyFi_Watch WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhyFi_Watch WatchKit Extension/Pods-WhyFi_Watch WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F68072CE209C3E1FF143BB65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhyFi_Watch WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2AF0F3B247E7EBB00B498B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AF0F47247E7EBB00B498B8 /* HostingController.swift in Sources */,
+				E2AF0F45247E7EBB00B498B8 /* ContentView.swift in Sources */,
+				E2AF0FD0247E83F800B498B8 /* Network.swift in Sources */,
+				E2AF0F4B247E7EBB00B498B8 /* NotificationController.swift in Sources */,
+				E2AF0F49247E7EBB00B498B8 /* ExtensionDelegate.swift in Sources */,
+				E21608E8247E9D2300A7870C /* UserDefaults.swift in Sources */,
+				E2AF0F4D247E7EBB00B498B8 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2AF0F33247E7EB800B498B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2AF0F2F247E7EB800B498B8 /* WhyFi_Watch WatchKit App */;
+			targetProxy = E2AF0F32247E7EB800B498B8 /* PBXContainerItemProxy */;
+		};
+		E2AF0F42247E7EBB00B498B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2AF0F3E247E7EBB00B498B8 /* WhyFi_Watch WatchKit Extension */;
+			targetProxy = E2AF0F41247E7EBB00B498B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2AF0F35247E7EB800B498B8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2AF0F36247E7EB800B498B8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2AF0F55247E7EBC00B498B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2AF0F56247E7EBC00B498B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2AF0F58247E7EBC00B498B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0697716861FD304A7CC4BFE3 /* Pods-WhyFi_Watch WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WhyFi_Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2JVYJA97AU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WhyFi_Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tom.WhyFi-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		E2AF0F59247E7EBC00B498B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4CBF5FC1BE15944D86B816 /* Pods-WhyFi_Watch WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WhyFi_Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2JVYJA97AU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WhyFi_Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tom.WhyFi-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		E2AF0F5C247E7EBC00B498B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B822663644ADA722FC53922 /* Pods-WhyFi_Watch WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JVYJA97AU;
+				IBSC_MODULE = WhyFi_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "WhyFi_Watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tom.WhyFi-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		E2AF0F5D247E7EBC00B498B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A216522A54F9F7A307AFEA3 /* Pods-WhyFi_Watch WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JVYJA97AU;
+				IBSC_MODULE = WhyFi_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "WhyFi_Watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tom.WhyFi-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		E2AF0F60247E7EBC00B498B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C932E16420A1C3037E527033 /* Pods-WhyFi_Watch.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JVYJA97AU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftyJSON",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tom.WhyFi-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		E2AF0F61247E7EBC00B498B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0952F71BA303A9D97452577 /* Pods-WhyFi_Watch.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JVYJA97AU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftyJSON",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tom.WhyFi-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2AF0F29247E7EB700B498B8 /* Build configuration list for PBXProject "WhyFi_Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AF0F55247E7EBC00B498B8 /* Debug */,
+				E2AF0F56247E7EBC00B498B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2AF0F57247E7EBC00B498B8 /* Build configuration list for PBXNativeTarget "WhyFi_Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AF0F58247E7EBC00B498B8 /* Debug */,
+				E2AF0F59247E7EBC00B498B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2AF0F5B247E7EBC00B498B8 /* Build configuration list for PBXNativeTarget "WhyFi_Watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AF0F5C247E7EBC00B498B8 /* Debug */,
+				E2AF0F5D247E7EBC00B498B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2AF0F5F247E7EBC00B498B8 /* Build configuration list for PBXNativeTarget "WhyFi_Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AF0F60247E7EBC00B498B8 /* Debug */,
+				E2AF0F61247E7EBC00B498B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2AF0F26247E7EB700B498B8 /* Project object */;
+}
